@@ -181,6 +181,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+PRODUCT_PACKAGES += \
+    DeviceParts
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
