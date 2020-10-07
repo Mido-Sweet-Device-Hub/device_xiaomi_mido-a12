@@ -757,10 +757,11 @@ system_ext/lib64/libdpmfdmgr.so|de47c07b4d092e91eebfc58a2a9424c0f84a6b87
 system_ext/lib64/libdpmtcm.so|dd2417890101f44304456560b802533b834649ff
 system_ext/lib64/libdpmframework.so|040e38cd46a218593800bcbfa2d1aea637c1c79c
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
-vendor/bin/dpmQmiMgr|4fe936478b0da1ee20c6222234b80d478a72cc2a
-vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
-vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
+
+#Dirac
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 
 # DRM - from LA.UM.9.6.2.r1-04100-89xx.0
 vendor/bin/qseecomd|12fde638ad4528c06fe336342862fd0ffc033dd0

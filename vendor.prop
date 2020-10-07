@@ -74,6 +74,15 @@ persist.camera.stats.test=5
 persist.vendor.cne.feature=1
 persist.vendor.mwqem.enable=1
 
+# Dirac algo tsx 9/12
+persist.dirac.acs.controller=qem
+persist.dirac.acs.storeSettings=1
+persist.dirac.acs.ignore_error=1
+
+# Dirac headset effect
+ro.audio.soundfx.dirac=true
+persist.audio.dirac.speaker=true
+
 # Display
 ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
