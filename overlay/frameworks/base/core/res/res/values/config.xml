@@ -585,6 +585,13 @@
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">107</integer>
 
+    <!-- Button backlight control. Possible values are:
+            0 - Not supported
+            1 - Supported, but only on/off mode
+            2 - Supported with variable brightness control
+    -->
+    <integer name="config_deviceSupportsButtonBrightnessControl">1</integer>
+
     <!-- Control whether the always on display mode is available. This should only be enabled on
          devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
          states. -->
