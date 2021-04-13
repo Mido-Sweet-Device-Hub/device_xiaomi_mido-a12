@@ -153,7 +153,3 @@ wifi.interface=wlan0
 
 # Wifi-Display
 persist.sys.wfd.virtual=0
-
-# priv-app permissions
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.control_privapp_permissions=false
