@@ -24,6 +24,15 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common Xtended stuff.
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
+# Xtended Stuff
+XTENDED_BUILD_TYPE := OFFICIAL
+XTENDED_BUILD_MAINTAINER := ~Pratyaksh.Bharadwaj~
+XTENDED_BUILD_DONATE_URL := https://paypal.me/pratyakshb5495
+TARGET_GAPPS_ARCH := arm64
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_DENSITY := 440
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := xtended_mido
