@@ -21,21 +21,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common ColtOS stuff.
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
-# Xtended Stuff
-XTENDED_BUILD_TYPE := OFFICIAL
-XTENDED_BUILD_MAINTAINER := ~Pratyaksh.Bharadwaj~
-XTENDED_BUILD_DONATE_URL := https://paypal.me/pratyakshb5495
+# Colt Stuff
+COLT_BUILD_TYPE := UNOFFICIAL
+COLT_BUILD_MAINTAINER := ~Pratyaksh.Bharadwaj~
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1080x1920
 TARGET_SCREEN_DENSITY := 440
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := xtended_mido
+PRODUCT_NAME := colt_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
