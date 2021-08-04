@@ -79,6 +79,9 @@ vendor.vidc.enc.disable_bframes=1
 vendor.vidc.enc.disable.pq=true
 vendor.video.disable.ubwc=1
 
+# Navbar
+qemu.hw.mainkeys=0
+
 # Qualcomm
 ro.vendor.qti.va_aosp.support=1
 
