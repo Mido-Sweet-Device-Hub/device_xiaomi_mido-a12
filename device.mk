@@ -450,11 +450,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     CustomDoze
 
-# GCam Go
-PRODUCT_PACKAGES += \
-    GCam
-
-
 # Hacks
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
