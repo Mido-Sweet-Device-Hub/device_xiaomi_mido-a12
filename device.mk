@@ -449,8 +449,3 @@ PRODUCT_BOOT_JARS += \
 # CustomDoze
 PRODUCT_PACKAGES += \
     CustomDoze
-
-# Hacks
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Settings \
-    SystemUI
