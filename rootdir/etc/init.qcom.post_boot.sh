@@ -5789,3 +5789,8 @@ if [ "$panel_model" == "panel_name=nt35596 tianma fhd video mode dsi panel" ]; t
         echo "237 237 256" > /sys/devices/platform/kcal_ctrl.0/kcal
         echo "258" > /sys/devices/platform/kcal_ctrl.0/kcal_sat
 fi
+
+# Workaround for TWRP splash stuck issue with android12
+   rm -rf data/system/storage.xml
+   touch data/system/storage.xml
+   chattr +I data/system/storage.xml
