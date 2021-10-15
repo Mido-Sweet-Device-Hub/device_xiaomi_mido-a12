@@ -367,6 +367,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Shims
+PRODUCT_PACKAGES += \
+    lib-imsvt
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
