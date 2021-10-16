@@ -154,8 +154,9 @@ DISABLE_RILD_OEM_HOOK := true
 VENDOR_SECURITY_PATCH := 2021-02-05
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+#include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+#BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal
 
 # Neverallows
 SELINUX_IGNORE_NEVERALLOWS := true
