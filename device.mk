@@ -423,9 +423,6 @@ PRODUCT_PACKAGES += \
     libnl \
     libshim_wfdmmsink
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Board
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msm8996
