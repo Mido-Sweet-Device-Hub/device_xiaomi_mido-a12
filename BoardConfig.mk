@@ -44,7 +44,9 @@ TARGET_SYSTEM_EXT_PROP := $(DEVICE_PATH)/system_ext.prop
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
 
+# hacks
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := mido_defconfig
