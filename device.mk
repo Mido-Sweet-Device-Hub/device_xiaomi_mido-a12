@@ -423,6 +423,10 @@ PRODUCT_PACKAGES += \
     libnl \
     libshim_wfdmmsink
 
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam
+
 # Board
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msm8996
