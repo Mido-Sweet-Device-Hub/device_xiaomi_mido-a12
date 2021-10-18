@@ -361,6 +361,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.usb.rc \
     init.parts.rc \
     init.target.rc \
+    init.temp.rc \
     ueventd.qcom.rc
 
 # RenderScript HAL
