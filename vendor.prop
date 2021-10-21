@@ -158,3 +158,6 @@ wifi.interface=wlan0
 
 # Wifi-Display
 persist.sys.wfd.virtual=0
+
+# Fingerprint
+fingerprint.nocleanup=true
