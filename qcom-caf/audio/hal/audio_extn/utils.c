@@ -2288,7 +2288,7 @@ int audio_extn_utils_compress_get_dsp_latency(struct stream_out *out)
             goto exit;
         }
 
-        metadata.key = SNDRV_COMPRESS_PATH_DELAY:
+        metadata.key = SNDRV_COMPRESS_PATH_DELAY;
         if(ret) {
             ALOGE("%s::error %s", __func__, compress_get_error(out->compr));
             goto exit;
