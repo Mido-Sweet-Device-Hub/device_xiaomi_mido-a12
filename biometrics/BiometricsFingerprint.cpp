@@ -33,6 +33,9 @@ namespace implementation {
 
 // Supported fingerprint HAL version
 
+// Boost duration
+static constexpr int kDefaultBoostDurationMs = 5000;
+
 using RequestStatus =
         android::hardware::biometrics::fingerprint::V2_1::RequestStatus;
 
