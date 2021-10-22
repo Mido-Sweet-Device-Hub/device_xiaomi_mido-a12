@@ -1192,7 +1192,7 @@ system_ext/lib64/libimscamera_jni.so|217354bfe6d1e1736572218b1a34468937544350
 system_ext/lib64/libimsmedia_jni.so|c804adc4d7224303a53f6270e6c1cf9319008a05
 system_ext/lib64/lib-imsvideocodec.so|ac7089da1c9824e367b1137be8bf4e496974f245
 system_ext/lib64/lib-imsvtextutils.so|0aadc4666d6e68429fcdd2db4bff1bf48538a155
-system_ext/lib64/lib-imsvt.so|205b5d3b47e9a990a950e05d5a7f2d006871d3cf
+system_ext/lib64/lib-imsvt.so|7bd38368dd337f066797cde4e29c38c5744f75de
 system_ext/lib64/lib-imsvtutils.so|d3a1a558664700fed951b8c63c900efcfc680830
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|7157c5a2852683df0a50a588a09b7e5a0c5688da
 -system_ext/priv-app/ims/ims.apk|230315f38d7c2fc6c9d83bb6ec1f8f59254090cf
@@ -1250,22 +1250,3 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|16baab27397ad493e845515c20ac0c0
 
 # Wi-Fi - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/bin/wcnss_service|317325ee182ad09f426975cc6ec44ce33addb052
-
-# MotoDolbyV3
--app/MotoDolbyV3/MotoDolbyV3.apk
--product/priv-app/daxService/daxService.apk
-etc/permissions/com.motorola.dolby.dolbyui.features.xml
-etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml
-product/etc/permissions/com.dolby.daxservice.xml
-vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
-vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
-vendor/etc/dolby/dax-default.xml
-vendor/lib/libdapparamstorage.so
-vendor/lib/libstagefrightdolby.so
-vendor/lib/vendor.dolby.hardware.dms@1.0.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib64/libdapparamstorage.so
-vendor/lib64/libdlbdsservice.so
-vendor/lib64/soundfx/libswdap.so
-vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
-vendor/lib64/vendor.dolby.hardware.dms@1.0.so
