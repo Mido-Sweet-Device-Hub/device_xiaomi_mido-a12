@@ -22,6 +22,5 @@ allow init hal_power_service:service_manager add;
 
 allow init qti_init_shell:capability kill;
 dontaudit init proc_dirty:file { open write };
-allow init sysfs_io_sched_tuneable:file write;
 allow init vendor_file:file { execute execute_no_trans };
 set_prop(init, bootloader_prop)
