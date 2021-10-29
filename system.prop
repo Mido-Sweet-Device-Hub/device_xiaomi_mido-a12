@@ -142,6 +142,3 @@ ro.octavi.maintainer=Sagar.Rokade&Pratyaksh.Bharadwaj
 ro.octavi.status=Official
 ro.octavi.branding.version=3.0
 ro.octavi.cpu=Snapdragon625
-
-# Dialer Blurs
-dialer.supports.blur=true
