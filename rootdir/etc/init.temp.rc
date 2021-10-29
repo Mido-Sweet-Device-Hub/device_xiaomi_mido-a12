@@ -1,7 +1,3 @@
-# Safetynet bypass
-# Inspired in magisk source code, by topjohnwu
-# Ported to ramdisk by jhenrique09
-
 #
 # Take logs even when adb is not working.
 # Thanks: markakash
