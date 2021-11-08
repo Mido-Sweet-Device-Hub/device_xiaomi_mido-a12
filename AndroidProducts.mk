@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/colt_mido.mk
+    $(LOCAL_DIR)/spark_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    colt_mido-user \
-    colt_mido-userdebug \
-    colt_mido-eng
+    spark_mido-user \
+    spark_mido-userdebug \
+    spark_mido-eng
