@@ -230,9 +230,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service
 
 # HALs
-SRC_AUDIO_HAL_DIR := hardware/qcom-caf/$(msm8996)/audio
-SRC_MEDIA_HAL_DIR := hardware/qcom-caf/$(msm8996)/media
-SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/$(msm8996)/display
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
 
 # HIDL
 PRODUCT_PACKAGES += \
