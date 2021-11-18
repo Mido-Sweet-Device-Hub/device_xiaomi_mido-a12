@@ -11,9 +11,6 @@ allow system_app {
 # zram
 r_dir_file(system_app sysfs_zram)
 
-allow system_app sysfs_battery_supply:dir { search };
-allow system_app sysfs_battery_supply:file { read open getattr };
-
 # AdvancedControls
 allow system_app sysfs_kcal:dir search;
 allow system_app sysfs_kcal:file rw_file_perms;
