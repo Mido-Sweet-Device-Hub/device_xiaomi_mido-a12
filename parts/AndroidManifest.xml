@@ -62,7 +62,6 @@
  
         <activity
             android:name=".soundcontrol.SoundControlSettingsActivity"
-            android:exported="false"
             android:label="@string/audio_title"
             android:theme="@style/Theme.SubSettingsBase"
             android:exported="true">
