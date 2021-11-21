@@ -36,9 +36,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Sna
 # Soong namespaces
 PRODUCT_BOARD_PLATFORM := msm8953
 PRODUCT_USES_QCOM_HARDWARE := true
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-hardware/qcom-caf/msm8996
+
+PRODUCT_SOONG_NAMESPACE += \
+    $(LOCAL_PATH)
 
 QCOM_SOONG_NAMESPACE := \
     $(LOCAL_PATH)/qcom-caf
@@ -233,9 +233,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service
 
 # HALs
-SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
-SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
-SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
+SRC_AUDIO_HAL_DIR := $(LOCAL_PATH)/qcom-caf/audio
+SRC_MEDIA_HAL_DIR := $(LOCAL_PATH)/qcom-caf/media
+SRC_DISPLAY_HAL_DIR := $(LOCAL_PATH)/qcom-caf/display
 
 # HIDL
 PRODUCT_PACKAGES += \
