@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2021 OctaviOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,19 +21,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common Spark stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+# Inherit some common OctaviOS stuff.
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
-# Colt Stuff
-COLT_BUILD_TYPE := UNOFFICIAL
+# Octavi Stuff
+OCTAVI_BUILD_TYPE := Official
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_DENSITY := 400
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := spark_mido
+PRODUCT_NAME := octavi_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
